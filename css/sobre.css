@@ -1,0 +1,18 @@
+.paragrafo { text-align: justify;}
+h3, p, li, label, input, textarea {font-family:'Roboto Slab', serif;}
+.menu {margin-top:20px; margin-left: 150px;}
+.menu ul li {list-style:none; display:inline-block;}
+.menu ul li a {color:#1a1a1a; margin:0 10px; margin-left: 40px; text-decoration:none; font-size:17px;}
+.menu ul li a:hover {color:#FFC03D;}
+.menu {justify-content: space-between;}
+
+.container h3 {color:var(--cor-corpo); text-align:center; }
+
+.paragrafo p {color:var(--cor-corpo); text-align:justify;  margin-top: 40px;}
+
+
+.rodape {width:100%; padding:20px 0; background-color: none;  text-align:center; clear:both; justify-content: flex-end;}
+
+.creditos {color:var(--cor-corpo); text-align: center;  padding-top: 360px;}
+.creditos p{font-size: 12px;}
+

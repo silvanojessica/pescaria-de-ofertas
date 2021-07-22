@@ -1,0 +1,92 @@
+body {
+    color: var(--cor-corpo)
+}
+
+.menu {margin-top:20px; margin-left: 150px;}
+.menu ul li {list-style:none; display:inline-block;}
+.menu ul li a {color:#1a1a1a; margin:0 10px; margin-left: 40px; text-decoration:none; font-size:17px;}
+.menu ul li a:hover {color:#FFC03D;}
+.menu {justify-content: space-between;}
+
+
+h3, p, li, label, input, textarea {font-family:'Roboto Slab', serif;}
+
+.falecomigo {
+    margin-top: 40px;
+    text-align: center;}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .form-contact {
+    margin-top: 60px;
+    width: 100%;
+    font-family: "Arial", Times, serif;
+    margin-top: 20px;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: var(--cor-corpo);
+    font-size: 18px;
+    border: 1px solid var(--cor-bordas);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+  }
+  
+  .form-contact ::placeholder{font-size: 11px;}
+  .form-contact-textarea {
+    width: 100%;
+    color: var(--cor-corpo);
+    font-size: 18px;
+    resize: none;
+    
+    border: 1px solid var(--cor-bordas);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--cor-bordas);
+    border-left: 1px solid var(--cor-bordas);
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: "Arial", Times, serif;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color:var(--cor-branco);
+    background-color: var(--cor-corpo);
+    height: 40px;
+    opacity: .8;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+    display: block;
+    border-bottom: 1px solid var(--cor-bordas);
+    border-right: 1px solid var(--cor-bordas);
+    transition: 1.2s;
+    
+  }
+  
+  .form-contact-button:hover {
+    filter: brightness(0.95);
+    background-color: var(--cor-principal);
+    transition: width 0.4s ease-in-out; ;
+  }
+  .creditos {color:var(--cor-corpo); text-align: center;}
+
+  .creditos p{font-size: 12px;}

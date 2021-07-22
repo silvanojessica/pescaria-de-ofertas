@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="script" href="/script/script.js">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="/img/logotamanhocerto.png" alt="Logotipo Trabalho Jéssica"></a>
+            </div>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+        
+    </header>
+<br>
+
+    <div class="falecomigo">
+        <h3>Quer falar comigo?</h3><br>
+        <p>Deixa uma mensagem aqui!</p>
+    </div>
+    
+
+    <div class="formulario">
+        <div class="container">  
+            <form action="#" class="form-contact" method="post" tabindex="1">  
+                <input type="text" class="form-contact-input" name="nome" placeholder="Qual o seu nome?" required />  
+                <input type="email" class="form-contact-input" name="email" placeholder="Me diz seu e-mail" required />  
+            <input type="tel" class="form-contact-input" name="tel" maxlength="11" id="tel" pattern="\d{4,5}\-\d{4}" placeholder="Deixe aqui seu telefone" required> 
+                       <textarea class="form-contact-textarea" name="conteudo" placeholder="O que gostaria de dizer?" required></textarea>  
+                <input type="button" onclick="funcaoEnviar()" value="Enviar" class="form-contact-button">
+            </form>  
+        </div>
+      </div>  
+
+      
+      <script>
+        function funcaoEnviar()
+        {
+        alert("Obrigada pelo contato. Responderei em breve!");
+        }
+        </script>
+        </head>
+        <body>
+        
+        <!--<input type="button" onclick="funcao1()" value="Exibir Alert" />-->
+      
+      <footer class="rodape">
+        <div class="container">
+
+            
+            <div class="creditos">
+                <p>Turma dos Feras Serratec | Desenvolvido por Jéssica Silvano </p>
+        </div>
+
+        </div>
+    </footer>
+</body>
+    
+        
+
+</html>
+
+
+
+
+
+

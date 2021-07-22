@@ -1,0 +1,68 @@
+
+ *{margin:0; padding:0; box-sizing:border-box;}
+
+ :root {
+    --cor-principal: #FFC03D;
+    --cor-hover: #fcf7bc;
+    --cor-corpo: #141414;
+    --cor-bordas: rgb(17, 17, 17);
+    --cor-branco: rgb(253, 249, 249);
+  }
+/* Definição de fonte */
+ h3, p, li, label, input, textarea {font-family:'Roboto Slab', serif;}
+
+ h3{text-align: center;
+}
+/* Cabeçalho */
+.cabecalho .container {display:flex; margin-left: 2px; margin-right: 5px;  }
+.container {max-width:900px; margin:0 auto; padding:8px; }
+
+.logo {
+    width: 1px;
+    align-items: flex-start;
+    padding: 1px;
+    margin: 0%;
+}
+/* Menu */
+.menu {margin-top:20px; margin-left: 150px;}
+.menu ul li {list-style:none; display:inline-block;}
+.menu ul li a {color:#1a1a1a; margin:0 10px; margin-left: 40px; text-decoration:none; font-size:17px;}
+.menu ul li a:hover {color:#FFC03D;}
+.menu {justify-content: space-between;}
+
+.imagensp1 {
+justify-content: space-between;
+display: flex;
+margin-right: 120px;
+align-items: center;
+margin-left: 120px;
+margin-top: 40px;
+padding: 40px;
+
+
+}
+
+
+/* Título */
+.titulo {width:100%; background-color: var(--cor-corpo); padding:10px; margin-top: 30px;}
+.titulo h3 {color:var(--cor-branco); text-align:center; font-size:20px; }
+.titulo p {color:var(--cor-branco); text-align:center; font-size:14px; }
+
+.titulo2 {margin-top: 40px;}
+
+
+
+.apresentacao{   text-align: justify; margin-top: 60px;}
+
+.motivos-para-garimpar{text-align:center; margin-top:60px; width: 100%; }
+
+.motivos-para-garimpar h3{background-color:var (var(--cor-corpo)); }
+
+.motivos-para-garimpar .texto-motivo{text-align: justify; }
+
+.creditos {color:var(--cor-corpo); text-align: center; padding-top: 140px;}
+
+.creditos p{font-size: 12px;}
+
+
+
